@@ -20,7 +20,7 @@ use_cuda = torch.cuda.is_available()
 
 def main():
     cnn = CNN()
-
+#
     if use_cuda:
         cnn = CNN().cuda()
     cnn.train()
